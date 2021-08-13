@@ -1,0 +1,1752 @@
+.menu{
+
+    background-color: #000;
+   width: 100%;
+    height: 120px;
+    overflow: hidden;
+
+}
+.menutop{
+
+    width: 70%;
+    float: right;
+    color: rgba(239,239,239,1);
+    font-size: 27px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.menutop div{
+    float: right;
+    margin: 40px 16px 10px 3px;
+
+}
+.menutop div:hover{
+   color: #f3c930;
+   cursor: pointer;
+
+}
+.logo {
+    font-size: 47px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    margin: 30px 10px;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    text-shadow: 10px -6px 14px #f3c930;
+    letter-spacing: 15px;
+    cursor: pointer;
+
+} 
+.log{
+    float: right;
+    margin-top: 50px;
+    
+    margin-right: 5px;
+    
+   
+}
+.log span:nth-child(1){
+    color: rgba(239,239,239,1);
+    font-size: 27px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.log span:nth-child(1):hover{
+    color: #f3c930;
+    cursor: pointer;
+} 
+.login{
+    display: none;
+    width: 30%;
+    right: 35%;
+    height: 80%;
+   
+    position: absolute;
+    z-index: 1000;
+
+}
+.fa-times{
+    font-size: 30px;
+    color: #000;
+    float: right;
+}
+.fa-times:hover{
+
+    opacity: .8;
+    cursor: pointer;
+   }
+.form{
+    display: none;
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+
+.login input:nth-child(3),input:nth-child(4),input:nth-child(5){
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 6px;
+    height: 40px;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    font-size: 20px;   
+    margin-top: 10px; 
+}
+
+.forget{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.apply{
+    background-color: #f3c930;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    height: 44px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply:focus{
+    outline: none;
+}
+.apply:hover{
+    background-color: #a38002;
+}
+
+.form2{
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+.account{
+    font-size: 16px; 
+display: inline-block;
+    margin-right: 3px;
+}
+.account2{
+    font-size: 16px; 
+    display: inline-block;
+    margin-right: 3px;
+}
+
+
+#signup{
+    font-size: 18px; 
+    color:#f3c930;
+    font-weight: 900;
+}
+#signin{
+    font-size: 18px; 
+    color:#f3c930;
+    font-weight: 900;
+}
+
+.apply2{
+    background-color: #f3c930;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    height: 44px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply2:focus{
+    outline: none;
+}
+.apply2:hover{
+    background-color: #a38002;
+}
+    
+.head{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+ 
+    
+
+}
+#right{
+    left: 93%;
+}
+#left{
+    right:  93%;
+}
+#right,#left{
+    font-weight: 900;
+    position: absolute;
+    padding: 20px;
+    color: #141414;
+    font-size:37px;
+    top: 350px;
+    background-color: #fff9f956;
+    border-radius: 30%;
+    z-index: 100;
+}
+
+.slides{
+    width: 100%;
+    height: 600px;
+    float: left;
+    position: relative;
+  
+}
+
+
+
+.slides img{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    display: none;
+
+    
+}
+li{
+    list-style: none;
+}
+
+.search{
+width: 100%;
+height: 75px;
+background-color: #141414;
+overflow: hidden;
+}
+.search input{
+width: 80%;
+height: 30px;
+position: relative;
+margin-top: 20px;
+background-color: #ececec;
+border-color:#9b9b9b ;
+font-size: 30px;
+font-family: 'Roboto', sans-serif;
+text-transform: capitalize;
+}
+
+.search i{
+position:relative;
+font-weight: 900;
+right:  2.5%;
+font-size: 22px;
+color: #333333;
+cursor: pointer;
+}
+.search input:focus{
+    outline: none;
+}
+
+.company{
+  margin-top: 20px;
+    float: left;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.firstcar , .secondcar , .thirdcar , .fourcar , .fivecar{    
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+    height: 200px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 6%;
+
+}
+.firstcar:hover , .secondcar:hover, .thirdcar:hover ,.fourcar:hover, .fivecar:hover{
+    
+    border-radius: 5px;
+    background-color:#1e1e1e;
+    border-bottom: 10px  solid #a38002;
+    transition: linear 0.2s;
+    cursor: pointer;
+    
+    
+
+}
+
+
+.firstcar span{
+font-size: 33px;
+color: #fefefe;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+margin-top: 2%;
+text-transform: uppercase;
+letter-spacing: 3px; 
+text-shadow:4px -3px 1px #0000008c;
+margin-left: 29%;
+margin-right: 20%;
+
+
+
+}
+.secondcar span{
+font-size: 33px;
+letter-spacing: 5px;
+color: #fefefe;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+text-shadow:4px -3px 1px #0000008c;
+margin-left: 41%;
+    margin-right: 41%;
+margin-top: 2%;
+
+}
+.fourcar span{
+    font-size: 33px;
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-top: 2%;
+    color: #fefefe;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 4px -3px 1px #0000008c;
+    
+}
+
+
+.thirdcar span{
+font-size: 33px;
+color: #fefefe;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 4px;
+text-transform: uppercase;
+text-shadow:4px -3px 1px #0000008c;
+margin-left: 41%;
+margin-right: 41%;
+margin-top: 2%;
+
+}
+.merlogo{
+    width: 90px;
+    height: 50px;
+    margin: 5% 41% 0 41%;
+}
+.bmwlogo{
+width: 56px;
+height: 49px;
+margin: 5% 41% 0 41%;
+}
+.audilogo{
+width: 127px;
+height: 64px;
+margin: 5% 41% 0 37%;
+}
+
+
+.kialogo{
+    width: 90px;
+    
+    height: 50px;
+    margin: 5% 41% 0 38%;
+}
+
+.pic{
+float: left;
+width: 100%;
+height: 700px ;
+
+
+}
+.bmwc{
+width: 91%;
+height: 553px;
+position: relative;
+float: left;
+margin-left:5%;
+}
+
+.bmw{
+float: left;
+width: 100%;
+height: 553px;
+margin-left: 7px;
+position: relative;
+cursor: pointer;
+border-radius: 2px;
+}
+.bmwc:hover .details {
+top:490px;
+transition: linear 0.4s;
+height: 12%;
+
+}
+
+
+
+
+.details{
+position: relative;
+top:507px;
+width: 100%;
+font-size:20px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+left: 7px;
+background-color:rgba(0,0,0,.35);
+height:9%;
+border-top: 1px solid rgba(0,0,0,.40);
+transition: linear 0.3s;
+
+}
+
+.det1{
+position: absolute;
+color: white;
+font-size:20px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+top: 1px;
+text-transform: capitalize;
+
+}
+.det2{
+
+position: absolute;
+color: white;
+font-size: 15px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+top: 30px;
+visibility: hidden;
+transition: linear 0.1s;
+text-transform: capitalize;
+}
+.bmwc:hover .det2{
+visibility: visible;
+transition: linear 0.7s;
+}
+.merc{
+float: right;
+width: 45%;
+height: 250px;
+margin-left: 10px;
+top: 14px;
+margin-right: 4%;
+position: relative;
+
+}
+.merc:hover .details2{
+  top: 175px;
+  height: 30%;
+}
+
+.merc img:nth-child(1){
+width: 100%;
+height: 250px;
+position: absolute; 
+border-radius: 2px;
+cursor: pointer;
+}
+.details2{
+position: relative;
+width: 100%;
+top: 197px;
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+background-color: rgba(0,0,0,.35);
+color: white;
+height: 21%;
+border-top: 1px solid rgba(0,0,0,.40);
+transition: linear 0.3s;
+
+}
+.det3{
+position: absolute;
+color: white;
+font-size:20px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+top: 1px;
+text-transform: capitalize;
+
+}
+.det4{
+position: absolute;
+color: white;
+font-size: 15px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+top: 30px;
+visibility: hidden;
+transition: linear 0.1s;
+text-transform: capitalize;
+}
+.merc:hover .det4{
+visibility: visible;
+transition: linear 0.3s;
+
+}
+.audic{
+top: 13px;
+float: left;
+width: 44%;
+height: 250px;
+margin-left: 5.5%;
+position: relative;
+}
+.audic img:nth-child(1){
+float: left;
+width: 100%;
+height: 100%;
+margin-right: 31px;
+position: absolute;
+border-radius: 2px;
+cursor: pointer;
+}
+.details3{
+position: relative;
+width: 100%;
+top: 197px;
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+background-color: rgba(0,0,0,.35);
+color: white;
+height: 21%;
+border-top: 1px solid rgba(0,0,0,.40);
+transition: linear 0.3s;
+
+}
+.audic:hover .details3{
+  top: 175px;
+  height: 30%;
+}
+.det5{
+position: absolute;
+color: white;
+font-size:20px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+top: 1px;
+text-transform: capitalize;
+
+}
+.det6{
+position: absolute;
+color: white;
+font-size: 15px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+top: 30px;
+visibility: hidden;
+transition: linear 0.1s;
+text-transform: capitalize;
+}
+.audic:hover .det6{
+visibility: visible;
+transition: linear 0.3s;
+
+}
+.footer{
+background-color: #1e1e1e;
+width: 100%;
+height: 130px;
+float: left;
+position: relative;
+top: 253px;
+
+}
+.sizefoot{
+float: right;
+width: 90%;
+height: 130px;
+} 
+.sizefoot div:nth-child(1){
+float: left;
+width: 30%;
+color: white;
+font-size: 32px;
+font-weight: bolder;
+font-family: 'Roboto', sans-serif;
+
+
+}
+.fonts{
+float: right;
+
+}
+.fonts i{
+color: #efefef;
+font-size: 40px;
+margin-left: 10px;
+margin-top: 8px;
+
+
+}
+.fonts i:hover{
+color: black;
+
+}
+
+.fonts a:nth-child(4){
+margin-right: 50px;
+}
+@media only screen and (max-width: 868px)
+ {
+    .menu{
+        float: left;
+        background-color: rgb(0, 0, 0);
+       width: 99%;
+        height: 100px;
+    }
+    .logo {
+        font-size: 30px;
+        font-weight: bolder;
+        color: white;
+        float: left;
+        margin: 20px 3px 0px 3px;
+        font-family: 'Cinzel', serif;
+        text-decoration: none;
+        text-shadow: 10px -6px 14px #f3c930;
+        letter-spacing: 15px;
+    
+    }  
+    
+    .menutop{
+
+        width: 70%;
+        float: right;
+        color: rgba(239,239,239,1);
+        
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+    }
+    .menutop div{
+        float: right;
+        font-size: 20px;
+        margin: 20px 10px 0px 3px;
+    
+    }
+    .menutop div:hover{
+       color: #f3c930;
+       cursor: pointer;
+    
+    }
+.login{
+    display: none;
+    width: 30%;
+    right: 35%;
+    height: 80%;
+    position: absolute;
+    z-index: 1000;
+
+}
+.fa-times{
+    font-size: 30px;
+    color: #000;
+    float: right;
+}
+.fa-times:hover{
+
+    opacity: .8;
+    cursor: pointer;
+   }
+.form{
+    display: none;
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+
+.login input:nth-child(3),input:nth-child(4),input:nth-child(5){
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 6px;
+    height: 30px;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    font-size: 13px;   
+    margin-top: 10px; 
+}
+
+.forget{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.apply{
+    background-color: #f3c930;
+    margin-top: 15px;
+    color: #000;
+    font-size: 16px;
+    height: 37px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply:focus{
+    outline: none;
+}
+.apply:hover{
+    background-color: #a38002;
+}
+
+.form2{
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+
+#signup{
+    font-size: 14px; 
+    color:#f3c930;
+    font-weight: 900;
+}
+#signin{
+    font-size: 14px; 
+    color:#f3c930;
+    font-weight: 900;
+    display: block;
+}
+.account{
+    font-size: 14px; 
+display: inline-block;
+    margin-right: 3px;
+}
+.account2{
+    font-size: 14px; 
+    display: inline-block;
+    margin-right: 3px;
+}
+
+
+
+
+.apply2{
+    background-color: #f3c930;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    height: 44px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply2:focus{
+    outline: none;
+}
+.apply2:hover{
+    background-color: #a38002;
+}
+
+    .head{
+        width: 100%;
+        height: 400px;
+        
+        overflow: hidden;    
+    
+    }
+    #right{
+        left: 88%;
+    }
+    #left{
+        right:  88%;
+    }
+    #right,#left{
+        font-weight: 900;
+        position: absolute;
+        padding: 16px;
+        color: #141414;
+        font-size: 30px;
+        top: 250px;
+        z-index: 100;
+    }
+    .dots{
+        width: 100%;
+        height: 100px;
+        position: relative;
+        
+        z-index: 100;
+    }
+    .dot{
+        float: left;
+        width: 30px;
+        height: 30px;
+        background-color: rgb(80, 73, 73);
+        border-radius: 50%;
+        margin: 0 9px;
+
+    }
+    .dot.active{
+        background-color: #f3c930;
+    }
+    
+    
+    .slides{
+        width: 100%;
+        height: 400px;
+        position: relative;
+      
+      
+    }
+    
+    
+    
+    
+    .slides img{
+        width: 103%;
+        height: 400px;
+       position: absolute;
+        
+    }
+    
+    .search{
+        width: 100%;
+        height: 75px;
+        background-color: #141414;
+        }
+        .search input{
+        width: 70%;
+        height: 30px;
+        position: relative;
+        margin-top: 20px;
+        background-color: #ececec;
+        border-color:#9b9b9b ;
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: capitalize;
+        }
+        
+        .search i{
+        position:relative;
+        font-weight: 900;
+        right:  3.5%;
+        font-size: 24px;
+        color: #333333;
+        cursor: pointer;
+        }
+        .search input:focus{
+            outline: none;
+        }
+        
+    
+    .company{
+        margin-top: 20px;
+          float: left;
+          width: 100%;
+          height: 300px;
+      }
+      .firstcar , .secondcar , .thirdcar , .fourcar , .fivecar{    
+          float: right;
+          width: 40%;
+          margin-top: 20px;
+          height: 100px;
+          background-color: #1e1e1e;
+          border-radius: 5px;
+         
+          margin-right: 6%;
+      
+      }
+      .firstcar:hover , .secondcar:hover, .thirdcar:hover ,.fourcar:hover, .fivecar:hover{
+          
+          border-radius: 5px;
+          background-color:#1e1e1e;
+          border-bottom: 10px  solid #a38002;
+          transition: linear 0.2s;
+          cursor: pointer;
+          
+          
+      
+      }
+      
+      
+      .firstcar span{
+      font-size: 22px;
+      color: #fefefe;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 2%;
+      text-transform: uppercase;
+      letter-spacing: 3px; 
+      text-shadow:4px -3px 1px #0000008c;
+      margin-left: 35%;
+      margin-right: 40%;
+      
+      
+      
+      }
+      .secondcar span{
+      font-size: 22px;
+      letter-spacing: 5px;
+      color: #fefefe;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      text-shadow:4px -3px 1px #0000008c;
+      margin-left: 41%;
+          margin-right: 41%;
+      margin-top: 2%;
+      
+      }
+      .fourcar span{
+          font-size: 22px;
+          margin-left: 41%;
+          margin-right: 41%;
+          margin-top: 2%;
+          color: #fefefe;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          text-shadow: 4px -3px 1px #0000008c;
+          
+      }
+      
+      
+      .thirdcar span{
+      font-size: 22px;
+      color: #fefefe;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      text-shadow:4px -3px 1px #ddc6c68c;
+      margin-left: 41%;
+      margin-right: 41%;
+      margin-top: 2%;
+      
+      }
+      .merlogo{
+          width: 70px;
+          height: 30px;
+          margin: 5% 41% 0 38%;
+      }
+      .bmwlogo{
+      width: 46px;
+      height: 39px;
+      margin: 5% 41% 0 41%;
+      }
+      .audilogo{
+      width: 80px;
+      height: 44px;
+      margin: 5% 41% 0 37%;
+      }
+      
+      
+      .kialogo{
+          width: 70px;
+          
+          height: 30px;
+          margin: 5% 41% 0 38%;
+      }
+      
+    .pic{
+    float: left;
+    width: 99%;
+    height: 700px;
+    
+    }
+    .bmwc{
+    width: 97%;
+    height: 250px;
+    position: relative;
+    float: left;
+    margin-left: 0%;
+    }
+    
+    .bmw{
+    float: left;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 2px;
+    }
+    .bmwc:hover .details {
+    top:180px;
+    transition: linear 0.4s;
+    height: 28%;
+    
+    }
+    
+    
+    
+    
+    .details{
+    position: relative;
+    top:200px;
+    width: 100%;
+    font-size:17px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(0,0,0,.35);
+    height:20%;
+    border-top: 1px solid rgba(0,0,0,.40);
+    transition: linear 0.3s;
+    
+    }
+    
+    .det1{
+    position: absolute;
+    color: white;
+    font-size:17px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 1px;
+    text-transform: capitalize;
+    
+    }
+    .det2{
+    
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    visibility: hidden;
+    transition: linear 0.1s;
+    text-transform: capitalize;
+    }
+    .bmwc:hover .det2{
+    visibility: visible;
+    transition: linear 0.7s;
+    }
+    .merc{
+        width: 97%;
+        height: 250px;
+        position: relative;
+        float: left;
+        margin-left: 1%;
+    
+    }
+    .merc:hover .details2{
+      top: 175px;
+      height: 30%;
+    }
+    
+    .merc img{
+    float: left;
+    width: 100%;
+    height: 250px;
+    position: absolute; 
+    border-radius: 2px;
+    cursor: pointer;
+    }
+    .details2{
+    position: relative;
+    width: 100%;
+    top: 197px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,.35);
+    color: white;
+    height: 21%;
+    border-top: 1px solid rgba(0,0,0,.40);
+    transition: linear 0.3s;
+    
+    }
+    .det3{
+    position: absolute;
+    color: white;
+    font-size:20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 1px;
+    text-transform: capitalize;
+    
+    }
+    .det4{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    visibility: hidden;
+    transition: linear 0.4s;
+    text-transform: capitalize;
+    }
+    .merc:hover .det4{
+    visibility: visible;
+    transition: linear 0.4s;
+    
+    }
+    .audic{
+        width: 97%;
+        height: 250px;
+        position: relative;
+        float: left;
+        margin-left: 1%;
+    }
+    .audic img{
+    float: left;
+    width: 100%;
+    height: 250%;
+    position: absolute;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+    }
+    .details3{
+    position: relative;
+    width: 100%;
+    top: 220px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,.35);
+    color: white;
+    height: 18%;
+    border-top: 1px solid rgba(0,0,0,.40);
+    transition: linear 0.3s;
+    
+    }
+    .audic:hover .details3{
+      top: 190px;
+      height: 29%;
+      transition: linear 0.4s;
+    }
+    .det5{
+    position: absolute;
+    color: white;
+    font-size:20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 1px;
+    text-transform: capitalize;
+    
+    }
+    .det6{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    visibility: hidden;
+    transition: linear 0.1s;
+    text-transform: capitalize;
+    }
+    .audic:hover .det6{
+    visibility: visible;
+    transition: linear 0.3s;
+    
+    }
+    .footer{
+    background-color: #1e1e1e;
+    width: 99%;
+    height: 130px;
+    float: left;
+    overflow: hidden;
+    
+    }
+    .sizefoot{
+    float: right;
+    width: 90%;
+    height: 130px;
+    } 
+    .sizefoot div:nth-child(1){
+    float: left;
+    width: 30%;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    }
+    .fonts{
+    float: right;
+    
+    }
+    .fonts i{
+    color: #efefef;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+    
+    }
+    .fonts i:hover{
+    color: black;
+    
+    }
+    
+    .fonts a:nth-child(4){
+    margin-right: 50px;
+    }       
+}
+@media only screen and (max-width: 580px) {
+
+    .menu{
+        float: left;
+        background-color: rgb(0, 0, 0);
+       width: 99%;
+        height: 200px;
+    }
+
+    
+    .logo {
+        font-size: 23px;
+        font-weight: bolder;
+        color: white;
+        float: left;
+        margin: 20px 3px 0px 3px;
+        font-family: 'Cinzel', serif;
+        text-decoration: none;
+        text-shadow: 10px -6px 14px #f3c930;
+        letter-spacing: 15px;
+    
+    }  
+    
+    .menutop{
+
+        width: 70%;
+        float: right;
+        color: rgba(239,239,239,1);
+        
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+    }
+    .menutop div{
+        float: right;
+        font-size: 20px;
+        margin: 20px 10px 0px 3px;
+    
+    }
+    .menutop div:hover{
+       color: #f3c930;
+       cursor: pointer;
+    
+    } 
+.login{
+    display: none;
+    width: 50%;
+    right: 25%;
+    height: 80%;
+    position: absolute;
+    z-index: 1000;
+
+}
+.fa-times{
+    font-size: 30px;
+    color: #000;
+    float: right;
+}
+.fa-times:hover{
+
+    opacity: .8;
+    cursor: pointer;
+   }
+.form{
+    display: none;
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+
+.login input:nth-child(3),input:nth-child(4),input:nth-child(5){
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 6px;
+    height: 20px;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    font-size: 12px;   
+    margin-top: 5px; 
+}
+
+.forget{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.apply{
+    background-color: #f3c930;
+    margin-top: 13px;
+    color: #000;
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply:focus{
+    outline: none;
+}
+.apply:hover{
+    background-color: #a38002;
+}
+
+.form2{
+    width: 100%;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+
+
+
+
+.apply2{
+    background-color: #f3c930;
+    margin-top: 5px;
+    color: #000;
+    font-size: 13px;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply2:focus{
+    outline: none;
+}
+.apply2:hover{
+    background-color: #a38002;
+}
+    .head{
+        width: 100%;
+        height: 150px;
+        
+        overflow: hidden;    
+    
+    }
+    #right{
+        left: 87%;
+    }
+    #left{
+        right:  87%;
+    }
+    #right,#left{
+        font-weight: 900;
+        position: absolute;
+        padding: 16px;
+        color: #141414;
+        font-size: 20px;
+        top: 250px;
+        z-index: 100;
+    }
+    
+    
+    .slides{
+        width: 100%;
+        position: relative;
+        height: 170px;
+      
+    }
+    
+    
+    
+    .slides img{
+        width: 100%;
+        height: 170px;
+        position: absolute;
+    }
+   
+    
+    .search{
+        width: 100%;
+        height: 50px;
+        background-color: #141414;
+        }
+        .search input{
+        width: 60%;
+        height: 25px;
+        position: relative;
+        margin-top: 20px;
+        background-color: #ececec;
+        border-color:#9b9b9b ;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: capitalize;
+        }
+        
+        .search i{
+        position:relative;
+        font-weight: 900;
+        right:  4%;
+        font-size: 20px;
+        color: #333333;
+        cursor: pointer;
+        }
+        .search input:focus{
+            outline: none;
+        }
+        
+    
+    .company{
+        margin-top: 20px;
+          width: 100%;
+          height: 700px;
+          overflow: hidden;
+      }
+      .firstcar , .secondcar , .thirdcar , .fourcar , .fivecar{    
+          width: 90%;
+          margin-top: 20px;
+          height: 150px;
+          background-color: #1e1e1e;
+          border-radius: 5px;
+
+         
+         
+      
+      }
+      .firstcar:hover , .secondcar:hover, .thirdcar:hover ,.fourcar:hover, .fivecar:hover{
+          
+          border-radius: 5px;
+          background-color:#1e1e1e;
+          border-bottom: 10px  solid #a38002;
+          transition: linear 0.2s;
+          cursor: pointer;
+          
+          
+      
+      }
+      
+      
+      .firstcar span{
+      font-size: 24px;
+      color: #fefefe;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      margin-top: 2%;
+      text-transform: uppercase;
+      letter-spacing: 3px; 
+      text-shadow:4px -3px 1px #0000008c;
+      margin-left: 35%;
+      margin-right: 40%;
+      
+      
+      
+      }
+      .secondcar span{
+      font-size: 24px;
+      letter-spacing: 5px;
+      color: #fefefe;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      text-shadow:4px -3px 1px #0000008c;
+      margin-left: 41%;
+          margin-right: 41%;
+      margin-top: 2%;
+      
+      }
+      .fourcar span{
+          font-size: 24px;
+          margin-left: 41%;
+          margin-right: 41%;
+          margin-top: 2%;
+          color: #fefefe;
+          font-weight: bold;
+          font-family: 'Roboto', sans-serif;
+          letter-spacing: 4px;
+          text-transform: uppercase;
+          text-shadow: 4px -3px 1px #0000008c;
+          
+      }
+      
+      
+      .thirdcar span{
+      font-size: 24px;
+      color: #fefefe;
+      font-weight: bold;
+      font-family: 'Roboto', sans-serif;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      text-shadow:4px -3px 1px #ddc6c68c;
+      margin-left: 41%;
+      margin-right: 41%;
+      margin-top: 2%;
+      
+      }
+      .merlogo{
+          width: 90px;
+          height: 45px;
+          margin: 5% 41% 0 38%;
+      }
+      .bmwlogo{
+      width: 66px;
+      height: 49px;
+      margin: 5% 41% 0 41%;
+      }
+      .audilogo{
+      width: 90px;
+      height: 44px;
+      margin: 5% 41% 0 37%;
+      }
+      
+      
+      .kialogo{
+          width: 80px;
+          
+          height: 40px;
+          margin: 5% 41% 0 38%;
+      }
+      
+    .pic{
+    width: 99%;
+    height: 600px;
+    
+    }
+    .bmwc{
+    width: 97%;
+    height: 250px;
+    position: relative;
+    
+    margin-left: 0%;
+    }
+    
+    .bmw{
+    
+    width: 100%;
+    height: 250px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 2px;
+    }
+    .bmwc:hover .details {
+    top:170px;
+    transition: linear 0.4s;
+    height: 32%;
+    
+    }
+    
+    
+    
+    
+    .details{
+    position: relative;
+    top:200px;
+    width: 100%;
+    font-size:17px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgba(0,0,0,.35);
+    height:20%;
+    border-top: 1px solid rgba(0,0,0,.40);
+    transition: linear 0.3s;
+    
+    }
+    
+    .det1{
+    position: absolute;
+    color: white;
+    font-size:17px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 1px;
+    text-transform: capitalize;
+    
+    }
+    .det2{
+    
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    visibility: hidden;
+    transition: linear 0.1s;
+    text-transform: capitalize;
+    }
+    .bmwc:hover .det2{
+    visibility: visible;
+    transition: linear 0.7s;
+    }
+    .merc{
+        width: 97%;
+        height: 250px;
+        position: relative;
+        float: left;
+        margin-left: 1%;
+    
+    }
+    .merc:hover .details2{
+      top: 175px;
+      height: 30%;
+      transition: linear 0.4s;
+    }
+    
+    .merc img{
+    float: left;
+    width: 100%;
+    height: 250px;
+    position: absolute; 
+    border-radius: 2px;
+    cursor: pointer;
+    }
+    .details2{
+    position: relative;
+    width: 100%;
+    top: 197px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,.35);
+    color: white;
+    height: 21%;
+    border-top: 1px solid rgba(0,0,0,.40);
+    transition: linear 0.3s;
+    
+    }
+    .det3{
+    position: absolute;
+    color: white;
+    font-size:20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 1px;
+    text-transform: capitalize;
+    
+    }
+    .det4{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    visibility: hidden;
+    transition: linear 0.1s;
+    text-transform: capitalize;
+    }
+    .merc:hover .det4{
+    visibility: visible;
+    transition: linear 0.3s;
+    
+    }
+    .audic{
+        width: 97%;
+        height: 250px;
+        position: relative;
+        float: left;
+        margin-left: 1%;
+    }
+    .audic img{
+    float: left;
+    width: 100%;
+    height: 250%;
+    position: absolute;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+    }
+    .details3{
+    position: relative;
+    width: 100%;
+    top: 220px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0,0,0,.35);
+    color: white;
+    height: 21%;
+    border-top: 1px solid rgba(0,0,0,.40);
+    transition: linear 0.4s;
+    
+    }
+    .audic:hover .details3{
+      top: 175px;
+      height: 37%;
+      transition: linear 0.4s;
+    }
+    .det5{
+    position: absolute;
+    color: white;
+    font-size:20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 1px;
+    text-transform: capitalize;
+    
+    }
+    .det6{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    top: 30px;
+    visibility: hidden;
+    transition: linear 0.1s;
+    text-transform: capitalize;
+    }
+    .audic:hover .det6{
+    visibility: visible;
+    transition: linear 0.3s;
+    
+    }
+    .footer{
+    background-color: #1e1e1e;
+    width: 99%;
+    height: 90px;
+    float: left;
+    overflow: hidden;
+    
+    }
+    .sizefoot{
+    float: right;
+    width: 90%;
+    height: 130px;
+    } 
+    .sizefoot div:nth-child(1){
+    float: left;
+    width: 30%;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    }
+    .fonts{
+    float: right;
+    
+    }
+    .fonts i{
+    color: #efefef;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+    
+    }
+    .fonts i:hover{
+    color: black;
+    
+    }
+    
+    .fonts a:nth-child(4){
+    margin-right: 50px;
+    }    
+}

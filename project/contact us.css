@@ -1,0 +1,532 @@
+
+*{
+    margin: 0px;
+}
+.menu{
+
+    background-color: #000;
+   width: 100%;
+    height: 120px;
+    overflow: hidden;
+
+}
+.menutop{
+
+    width: 70%;
+    float: right;
+    color: rgba(239,239,239,1);
+    font-size: 27px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.menutop div{
+    float: right;
+    margin: 40px 16px 10px 3px;
+
+}
+.menutop div:hover{
+   color: #f3c930;
+   cursor: pointer;
+
+}
+.logo {
+    font-size: 47px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    margin: 30px 10px;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    text-shadow: 10px -6px 14px #f3c930;
+    letter-spacing: 15px;
+    cursor: pointer;
+
+} 
+.log{
+    float: right;
+    margin-top: 50px;
+    
+    margin-right: 5px;
+    
+   
+}
+.log span:nth-child(1){
+    color: rgba(239,239,239,1);
+    font-size: 27px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.log span:nth-child(1):hover{
+    color: #f3c930;
+    cursor: pointer;
+} 
+.login{
+    display: none;
+    width: 30%;
+    right: 35%;
+    height: 80%;
+   
+    position: absolute;
+    z-index: 1000;
+
+}
+.fa-times{
+    font-size: 30px;
+    color: #000;
+    float: right;
+}
+.fa-times:hover{
+
+    opacity: .8;
+    cursor: pointer;
+   }
+.form{
+    display: none;
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+
+.login input:nth-child(3),input:nth-child(4),input:nth-child(5){
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 6px;
+    height: 40px;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+    font-size: 20px;   
+    margin-top: 10px; 
+}
+
+.forget{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.apply{
+    background-color: #f3c930;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    height: 44px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply:focus{
+    outline: none;
+}
+.apply:hover{
+    background-color: #a38002;
+}
+
+.form2{
+    width: 100%;
+    padding: 40px 40px 48px;
+    background-color: #FFF;
+    height:390px;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 12px 7px;
+    position: relative;
+}
+.account{
+    font-size: 16px; 
+display: inline-block;
+    margin-right: 3px;
+}
+.account2{
+    font-size: 16px; 
+    display: inline-block;
+    margin-right: 3px;
+}
+
+
+#signup{
+    font-size: 18px; 
+    color:#f3c930;
+    font-weight: 900;
+}
+#signin{
+    font-size: 18px; 
+    color:#f3c930;
+    font-weight: 900;
+}
+
+.apply2{
+    background-color: #f3c930;
+    margin-top: 15px;
+    color: #000;
+    font-size: 20px;
+    height: 44px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.apply2:focus{
+    outline: none;
+}
+.apply2:hover{
+    background-color: #a38002;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 130px;
+    float: left;
+    position: relative;
+    top: 153px;
+    
+    }
+    .sizefoot{
+    float: right;
+    width: 90%;
+    } 
+    .sizefoot div:nth-child(1){
+    float: left;
+    width: 20%;
+    color: #000;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    
+    
+    }
+    .fonts{
+    float: right;
+    
+    }
+    .fonts i{
+    color: #000;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 8px;
+    
+    
+    }
+    .fonts i:hover{
+    color: rgb(100, 98, 98);
+    
+    }
+    
+    .fonts a:nth-child(4){
+    margin-right: 50px;
+    }
+
+
+    .group{
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 900;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+
+
+    }
+    .mid{
+        width: 90%;
+        text-align: center;
+        margin-left: 5px;
+
+    }
+    .left{
+        float: left;
+        width: 60%;
+
+
+    }
+    .general{
+        font-size: 30px;
+        color: black;
+        font-weight: 900;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .left div{
+        font-size: 25px;
+        margin-top: 10px;
+        text-transform: capitalize;
+        color: black;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .left i{
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    .right{
+        float: left;
+        width:37% ;
+    }
+    .social{
+        font-family: Arial, Helvetica, sans-serif;
+
+        font-size: 30px;
+        color: black;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        
+    }
+    .right div{
+        font-size: 25px;
+        margin-top: 10px;
+        text-transform: capitalize;
+        color: black;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .right i{
+        font-size: 30px;
+        color: black;
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 868px)
+    {
+       .menu{
+           float: left;
+           background-color: rgb(0, 0, 0);
+          width: 99%;
+           height: 100px;
+       }
+       .logo {
+           font-size: 30px;
+           font-weight: bolder;
+           color: white;
+           float: left;
+           margin: 20px 3px 0px 3px;
+           font-family: 'Cinzel', serif;
+           text-decoration: none;
+           text-shadow: 10px -6px 14px #f3c930;
+           letter-spacing: 15px;
+       
+       }  
+       
+       .menutop{
+   
+           width: 70%;
+           float: right;
+           color: rgba(239,239,239,1);
+           
+           text-transform: capitalize;
+           font-family: 'Roboto', sans-serif;
+       }
+       .menutop div{
+           float: right;
+           font-size: 20px;
+           margin: 20px 10px 0px 3px;
+       
+       }
+       .menutop div:hover{
+          color: #f3c930;
+          cursor: pointer;
+       
+       }
+   .login{
+       display: none;
+       width: 50%;
+       right: 35%;
+       height: 80%;
+       position: absolute;
+       z-index: 1000;
+   
+   }
+   .fa-times{
+       font-size: 30px;
+       color: #000;
+       float: right;
+   }
+   .fa-times:hover{
+   
+       opacity: .8;
+       cursor: pointer;
+      }
+   .form{
+       display: none;
+       width: 100%;
+       padding: 40px 40px 48px;
+       background-color: #FFF;
+       height:390px;
+       border-radius: 4px;
+       box-shadow: black 0px 0px 12px 7px;
+       position: relative;
+   }
+   
+   .login input:nth-child(3),input:nth-child(4),input:nth-child(5){
+       width: 100%;
+       margin: 0;
+       padding: 0 0 0 6px;
+       height: 30px;
+       border: 1px solid #E9E9E9;
+       border-radius: 4px;
+       font-size: 13px;   
+       margin-top: 10px; 
+   }
+   
+   .forget{
+       font-size: 15px;
+       margin-top: 10px;
+   }
+   .apply{
+       background-color: #f3c930;
+       margin-top: 15px;
+       color: #000;
+       font-size: 16px;
+       height: 37px;
+       width: 100%;
+       border-radius: 10px;
+       cursor: pointer;
+       
+   }
+   .apply:focus{
+       outline: none;
+   }
+   .apply:hover{
+       background-color: #a38002;
+   }
+   
+   .form2{
+       width: 100%;
+       padding: 40px 40px 48px;
+       background-color: #FFF;
+       height:390px;
+       border-radius: 4px;
+       box-shadow: black 0px 0px 12px 7px;
+       position: relative;
+   }
+   
+   #signup{
+       font-size: 14px; 
+       color:#f3c930;
+       font-weight: 900;
+   }
+   #signin{
+       font-size: 14px; 
+       color:#f3c930;
+       font-weight: 900;
+       display: block;
+   }
+   .account{
+       font-size: 14px; 
+   display: inline-block;
+       margin-right: 3px;
+   }
+   .account2{
+       font-size: 14px; 
+       display: inline-block;
+       margin-right: 3px;
+   }
+   
+   
+   
+   
+   .apply2{
+       background-color: #f3c930;
+       margin-top: 15px;
+       color: #000;
+       font-size: 20px;
+       height: 44px;
+       width: 100%;
+       border-radius: 10px;
+       cursor: pointer;
+       
+   }
+   .apply2:focus{
+       outline: none;
+   }
+   .apply2:hover{
+       background-color: #a38002;
+   }
+   .group{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.mid{
+    width: 90%;
+    text-align: center;
+    margin-left: 5px;
+
+}
+.left{
+    float: left;
+    width: 60%;
+
+
+}
+.general{
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.left div{
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.left i{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+.right{
+    float: left;
+    width:37% ;
+}
+.social{
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    
+}
+.right div{
+    font-size: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.right i{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+}

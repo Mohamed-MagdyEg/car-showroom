@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/7112aabba7.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gold</title>
+<link rel="icon" href="..\imagetwo\logo44.png">
+<link rel="stylesheet" href="bootstrap.css">
+</head>
+<body style="background-color: #000;   ">
+    <div class="menu">
+        <div class="menutop">
+        <div id="sign">Sign in/Sign Up</div>
+        <div class="div1" >design your car</div>
+        <div class="div2"> car showroom</div>
+    </div>
+       <div class="logo"> gold </div>
+   
+         <div class="log">
+             <div class="login">
+                 <div class="form">
+                    <i class="fa fa-times" aria-hidden="true" id="close"></i>
+                     <div style="font-size: 20px; color: black;  font-weight: 900; text-transform: capitaliz;   font-family: 'Roboto', sans-serif;">Sign In </div>
+                     <input type="text" placeholder="Email" >
+                    <input type="text" placeholder="Password" >
+                    <button class="apply">Sign in</button>
+                     <div  class="account" >Don't have account ? </div>
+                     <span id="signup" >sign up</span>
+                </div>
+                    <div class="form2">
+                        <i class="fa fa-times" aria-hidden="true" id="close2"></i>
+                        <div style="font-size: 20px; color: black;  font-weight: 900; text-transform: capitaliz;   font-family: 'Roboto', sans-serif;">Sign Up </div>
+                        <input type="text" placeholder="Email" >
+                       <input type="text" placeholder="Password(6-20 characters)" >
+                       <input type="text" placeholder="Confirm Password" >
+
+                       <button class="apply">Continue</button>
+                       <div  class="account2" >Already have account ?</div>
+                       <span id="signin" >sign in</span>
+                   </div>
+               
+             </div>
+         </div>
+        
+     </div> 
+     <!-- end of menu-->
+     <div class="head">
+        <i class="fa fa-chevron-right" aria-hidden="true" id="right" onclick="next()" ></i>
+        <i class="fa fa-chevron-left" aria-hidden="true" id="left"onclick="prev()"></i>
+        <div  class="slides" >    
+           <img src="../imagetwo/2.jpg" alt=""  id="1">
+            <img src="../imagetwo/3.jpg" alt=""  id="2">
+           <img src="../imagetwo/8.jpg" alt="" id="3">
+        </div>
+         
+    </div>
+       <div class="search">
+           <center><input type="text" placeholder="search......"><i class="fas fa-search"></i></center> 
+        </div> 
+        
+        <div class="company">
+            <div class="firstcar" onclick="fun1()"><span> mercedes</span> <img  src="..\imagetwo\mercedes.png" alt="" class="merlogo"></div>
+            <div class="secondcar"onclick="fun2()"><span> bmw</span><img src="..\imagetwo\bmwlogo.png" alt="" class="bmwlogo"></div>
+            <div class="thirdcar"onclick="fun3()"><span> audi</span> <img src="..\imagetwo\audi11.png" alt="" class="audilogo"></div>
+            <div class="fourcar"onclick="fun4()"><span> kia</span> <img src="..\imagetwo\kialogo.png" alt="" class="kialogo"></div>
+
+        </div>
+        <div class="pic">
+            <div class="bmwc">
+            <img src="..\imagetwo/4.jpg" alt="" class="bmw">
+            <div class="details">
+            <div class="det1">  bmw  electrifies at the 2021 league of the legends</div>
+            <div class="det2"> for the first time, the car brand with the star will be part of the international event of espost</div>
+        </div>
+        </div> 
+         <div class="merc">
+        <img src="..\imagetwo/19.jpg" alt="">
+        <div class="details2">
+            <div class="det3"> the new s-class and its function </div>
+            <div class="det4">the s-class stands for legendery as well as traditional engineering.</div>
+        </div>
+         </div>
+
+        <div class="audic">
+            <img src="..\imagetwo/18.png" alt="">
+            <div class="details3">
+                <div class="det5"> They’re here. Explore Audi electric models. </div>
+                <div class="det6">Our current e-tron lineup is the just the beginning of how we see the future of electric at Audi.</div>
+            </div> 
+        </div> 
+        </div>
+      
+        <div class="footer">
+            <div class="sizefoot">
+            <div id="contact">contact us</div>
+            <div class="fonts">
+           <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+           <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+           <a href="https://twitter.com/"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        </div> 
+        </div>
+       </div>
+       
+    </body>
+    <script src="jquery-migrate-3.3.2.js"></script>
+       <script src="jquery-migrate-3.3.2.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+           <script>
+                $("#contact").click(function(){
+            window.open("contact.html")
+          })
+          function fun1(){
+            window.open("mercedes.html")
+          }
+          function fun2(){
+            window.open("bmw.html")
+          }
+          function fun3(){
+            window.open("audi.html")
+          }
+          function fun4(){
+            window.open("kia.html")
+          }
+          $(".div1").click(function(){
+            window.open("buildcar.html")
+          })
+          $(".div2").click(function(){
+            window.open("car showroom.html")
+          })
+          $(".logo").click(function(){
+            window.open("home.html")
+          })
+         slidesInt=1;
+         slidesNext=2;
+             $(document).ready(function(){
+                 $("#sign").click(function(){
+                    $(".login").show()
+                 })
+                 $("#close").click(function(){
+                    $(".login").hide()
+                 })
+                 $("#close2").click(function(){
+                    $(".login").hide()
+                 })
+                 $("#signin").click(function(){
+                     $(".form").show()
+                     $(".form2").hide()
+                 })
+                 $("#signup").click(function(){
+                     $(".form").hide()
+                     $(".form2").show()
+                 })
+                 
+                    $(".slides img#1").fadeIn(700);
+                    startSlides();
+                    $("#right").click(function(){
+                        next()           
+                    })
+                    $("#left").click(function(){
+                        next()           
+                    })
+    function prev(){
+           newSlide= slidesInt-1;
+           showSlide(newSlide);  
+       } 
+       function next(){
+        newSlide= slidesInt+1;
+           showSlide(newSlide);
+       } 
+        function startSlides(){
+         count=$(".slides > img").length;
+         loop=setInterval(function(){
+             $(".slides img").fadeOut(1000);
+             $(".slides img#"+ slidesNext).fadeIn(1000);
+            slidesInt=slidesNext;
+            slidesNext=slidesNext + 1;
+            if(slidesNext>count){
+                        slidesNext=1;
+                        slidesInt=1;
+                    }
+         },6000)
+         } 
+         
+       
+       function showSlide(id){
+        if(id>count){
+            id=1 ;
+                    } 
+        else if(id<1){
+            id=count;             
+                    }
+        $(".slides img").fadeOut(300);
+             $(".slides img#"+id).fadeIn(300);
+            slidesInt=id;
+            slidesNext=id+1;     
+                    }
+        });      
+       </script>
+</html>

@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="contact us.css">
+        <script src="https://kit.fontawesome.com/7112aabba7.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <div class="menu">
+            <div class="menutop">
+            <div id="sign">Sign in/Sign Up</div>
+            <div class="div1" >design your car</div>
+            <div class="div2"> car showroom</div>
+        </div>
+           <div class="logo"> gold </div>
+       
+             <div class="log">
+                 <div class="login">
+                     <div class="form">
+                        <i class="fa fa-times" aria-hidden="true" id="close"></i>
+                         <div style="font-size: 20px; color: black;  font-weight: 900; text-transform: capitaliz;   font-family: 'Roboto', sans-serif;">Sign In </div>
+                         <input type="text" placeholder="Email" >
+                        <input type="text" placeholder="Password" >
+                        <button class="apply">Sign in</button>
+                         <div  class="account" >Don't have account ? </div>
+                         <span id="signup" >sign up</span>
+                    </div>
+                        <div class="form2">
+                            <i class="fa fa-times" aria-hidden="true" id="close2"></i>
+                            <div style="font-size: 20px; color: black;  font-weight: 900; text-transform: capitaliz;   font-family: 'Roboto', sans-serif;">Sign Up </div>
+                            <input type="text" placeholder="Email" >
+                           <input type="text" placeholder="Password(6-20 characters)" >
+                           <input type="text" placeholder="Confirm Password" >
+    
+                           <button class="apply">Continue</button>
+                           <div  class="account2" >Already have account ?</div>
+                           <span id="signin" >sign in</span>
+                       </div>
+                   
+                 </div>
+             </div>
+            
+         </div>
+         <div class="group"> contact Gold group in egypt</div>
+         <div class="mid">
+            <div class="left">
+                <div class="general"> general Enquiries</div>
+                <div>makka tour st.el shohada level 4 </div>
+                <div>or paris tour st.el gaish level 10</div>
+                <div>tel: 01005569757, 01225237353, 01060929046</div>
+                <div>you can contact us with this email</div>
+                <div><i class="fa fa-envelope"></i> goldcar2020@gmail.com</div>
+            </div>
+            <div class="right">
+                <div class="social">social contact</div>
+                <div id="facet"> <i class="fa fa fa-facebook-square" ></i> facebook</div>
+                <div id="instat"> <i class="fa fa-instagram"></i> instagram</div>
+                <div id="yout"> <i class="fa fa-youtube-square"></i> youtube</div>
+            </div>
+         </div>
+
+              
+            <div class="footer">
+                <div class="sizefoot">
+                <div>contact us</div>
+                <div class="fonts">
+               <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square" aria-hidden="true" ></i></a>
+                <a href="https://www.youtube.com/"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+            
+                <a href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+               <a href="https://twitter.com/"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </div> 
+            </div>
+           </div>
+        
+    </body>
+    <script src="jquery-migrate-3.3.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(".div1").click(function(){
+            window.open("buildcar.html")
+          })
+          $(".div2").click(function(){
+            window.open("car showroom.html")
+          })
+          $(".logo").click(function(){
+            window.open("home.html")
+          })
+         
+          $("#facet").click(function(){
+            window.open("https://www.facebook.com/")
+          })
+          $("#instat").click(function(){
+            window.open("https://www.instagram.com/")
+          })
+         
+          $("#yout").click(function(){
+            window.open("https://www.youtube.com/")
+          })
+    
+        
+             
+                 $("#sign").click(function(){
+                    $(".login").show()
+                 })
+                 $("#close").click(function(){
+                    $(".login").hide()
+                 })
+                 $("#close2").click(function(){
+                    $(".login").hide()
+                 })
+                 $("#signin").click(function(){
+                     $(".form").show()
+                     $(".form2").hide()
+                 })
+                 $("#signup").click(function(){
+                     $(".form").hide()
+                     $(".form2").show()
+                 })
+                 
+                })
+    </script>
+</html>
