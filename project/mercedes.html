@@ -159,7 +159,7 @@
                     $("#left").click(function(){
                         next()           
                     })
-    function prev(){
+                    function prev(){
            newSlide= slidesInt-1;
            showSlide(newSlide);  
        } 
@@ -169,16 +169,12 @@
        } 
         function startSlides(){
          count=$(".slides > img").length;
-         loop=setInterval(function(){
-             $(".slides img").fadeOut(1000);
-             $(".slides img#"+ slidesNext).fadeIn(1000);
-            slidesInt=slidesNext;
+              slidesInt=slidesNext;
             slidesNext=slidesNext + 1;
             if(slidesNext>count){
                         slidesNext=1;
                         slidesInt=1;
                     }
-         },6000)
          } 
          
        
